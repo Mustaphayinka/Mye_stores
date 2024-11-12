@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myestores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swipper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section id="header">
+        <a href="#"> <img src="img/" class="logo" alt=""> </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href=""><i class="fas fa-shopping-bag"></i></a></li>
+                <!-- <a href=""  id="close"><i class="fas fa-shopping-bag"></i></a> -->
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+                
+
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href=""> <i class="fas fa-shopping-bag"></i></a>
+            <i  id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>Stay Home</h2>
+        <p>Save more with coupons and up to 70% off</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro" data-product-id="product1">
+                <img src="images/index.jpg" alt="Product 1">
+                <div class="des">
+                    <h5>Don't Waste My Soap</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N699.99</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            
+            <div class="pro" data-product-id="product2">
+                <img src="images/IMG-20221217-WA0001.jpg" alt="Product 2">
+                <div class="des">
+                    <h5>Pyramid Electric Kettle</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N7499</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product3">
+                <img src="images/index4.jpg" alt="Product 3">
+                <div class="des">
+                    <h5>500ml Water Temperature Flask</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2200</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product4">
+                <img src="images/IMG-20221217-WA0011.jpg" alt="Product 4">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Self-stiring Mug</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product5">
+                <img src="images/IMG-20221217-WA0039.jpg" alt="Product 5">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Foldable Chinese Wooden Fan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product6">
+                <img src="images/IMG-20221217-WA0053.jpg" alt="Product 6">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Golden Spoons</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1099</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product7">
+                <img src="images/index9.jpg" alt="Product 7">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Dumbbell Water Bottle</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N4199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product8">
+                <img src="images/index17.jpg" alt="Product 8">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Electric Food Chopper</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N10499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product9">
+                <img src="images/index12.jpg" alt="Product 9">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Serving Dish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3599</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product10">
+                <img src="images/index67.jpg" alt="Product 10">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Mini Basket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product11">
+                <img src="images/index11.jpg" alt="Product 11">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Electric Lunchbox</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N5499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product12">
+                <img src="images/index95.jpg" alt="Product 12">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Shoe Rack plus Hanger</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N15999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product13">
+                <img src="images/index79.jpg" alt="Product 13">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Toasting Machine</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N9499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product14">
+                <img src="images/index98.jpg" alt="Product 14">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Student Cutlery</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3099</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product15">
+                <img src="images/index69.jpg" alt="Product 15">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Cutting Board</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1399</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product16">
+                <img src="images/index58.jpg" alt="Product 16">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Mini Eletric Kettles</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product17">
+                <img src="images/index57.jpg" alt="Product 17">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Two Sided Hotplate</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N16999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product18">
+                <img src="images/index54.jpg" alt="Product 18">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Not Laundry Bag</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product19">
+                <img src="images/index41.jpg" alt="Product 19">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>One Side Hotplate</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N8499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product20">
+                <img src="images/index55.jpg" alt="Product 20">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Hair Dryer (small)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2400</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product21">
+                <img src="images/index77.jpg" alt="Product 21">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Food Warmers (small)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product22">
+                <img src="images/index47.jpg" alt="Product 22">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Seven Set Plastic Containers</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N4199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product23">
+                <img src="images/index35.jpg" alt="Product 23">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Covered Plate Rack</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N6150</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product24">
+                <img src="images/index31.jpg" alt="Product 24">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Flower Food Warmer</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N23999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product25">
+                <img src="images/index102.jpg" alt="Product 25">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Multi-Colour Straw Flask</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product26">
+                <img src="images/index103.jpg" alt="Product 26">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Hair Straightener</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1899</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product27">
+                <img src="images/index104.jpg" alt="Product 27">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Hair Straightener</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2899</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product28">
+                <img src="images/index105.jpg" alt="Product 28">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Long Breakable Mugs</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product29">
+                <img src="images/index106.jpg" alt="Product 29">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Breakable Toothbrush Holder</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product30">
+                <img src="images/index107.jpg" alt="Product 30">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>3-Tier Commodity Rack</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N9699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product31">
+                <img src="images/index110.jpg" alt="Product 31">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>16 Dinner Set</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N22999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product32">
+                <img src="images/index108.jpg" alt="Product 32">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Plastic Wine Cups</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N599</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-product-id="product33">
+                <img src="images/IMG-20221217-WA0027.jpg" alt="Product 33">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>FootMats</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N4699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product34">
+                <img src="images/IMG-20221217-WA0028.jpg" alt="Product 34">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Electric Handfan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N3699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product35">
+                <img src="images/index78.jpg" alt="Product 35">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Acrylic Jug with Cups</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N7499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product36">
+                <img src="images/index111.jpg" alt="Product 36">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Shoe Rack/Cabinet (Medium)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N10499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product37">
+                <img src="images/index109.jpg" alt="Product 37">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Large Capacity Laundry Plastic</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N5499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product38">
+                <img src="images/index110.jpg" alt="Product 38">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>16 Dinner Set</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N22999</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product39">
+                <img src="images/index91.jpg" alt="Product 39">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Mini Parker and Brush</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N1699</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" data-product-id="product40">
+                <img src="images/index97.jpg" alt="Product 40">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Bathroom Accessories</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N35499</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>      
+
+            <div class="pro" data-product-id="product41">
+                <img src="images/index112.jpg" alt="Product 41">
+                <div class="des">
+                    <!-- <span>adidas</span> -->
+                    <h5>Breakable Mugs</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>N2199</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <section id="pagination" class="section-p1" >
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section> -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get E-mail Updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Al-Hikmah University </p>
+            <p><strong>Phone:</strong>+2348170084726</p>
+            <p><strong>Hours:</strong>08:00 - 16:00 </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+
+         <!-- Whatsapp widget -->
+         <div class="elfsight-app-b946cf34-9446-4f02-9238-30b587871784"></div>
+         <!-- Whatsapp widget ends -->
+ 
+
+        <div class="col">
+            
+            <!-- <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">About Us</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a> -->
+        </div>
+
+        <div class="col">
+            <!-- <h4>My Account</h4>
+            <a href="">About Us</a>
+            <a href="">About Us</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a> -->
+        </div>
+
+        <div class="col install">
+            <!-- <h4>Install App</h4>
+            <div class="row">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="" alt=""> -->
+        </div>
+
+        <!-- <div class="copyright">
+            <p>Html css template</p>
+        </div> -->
+    </footer>
+
+    <script src="script.js" >
+    </script>
+
+     <!-- Whatsapp widget -->
+     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer>
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const productDivs = document.querySelectorAll('.pro');
+
+        productDivs.forEach(function (productDiv) {
+            productDiv.addEventListener('click', function () {
+                const productId = productDiv.getAttribute('data-product-id');
+                if (productId) {
+                    window.location.href = `product-details.html?product=${productId}`;
+                }
+            });
+        });
+    });
+</script>
+
+   
+</body>
+</html>
